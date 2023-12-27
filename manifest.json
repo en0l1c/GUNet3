@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "GUNet3",
+  "version": "0.1.0",
+  "permissions": ["<all_urls>"], 
+  "content_scripts": [
+    {
+      "matches": ["https://gunet2.cs.unipi.gr/*"],
+      "js": ["contentScript.js"],
+      "css": ["style.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+html, body {
+
+  background-color:#1c232e !important;
+}
+
+body {
+    font-family: "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5; 
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+#container {
+    margin: 20px auto;
+    width: 100%;  /*fixed width*/
+    
+    border-radius:10px !important;
+}
+
+#content {
+    margin-bottom:10px;
+    width:100% !important;
+    margin:0px !important;
+    /* padding:5px !important; */
+}
+
+
+#content_main {
+  margin-top:10px;
+  width:96.5% !important;
+  /* width:980px !important; */
+  /* background-color:lightgrey; */
+  border-radius:5px;
+  /* padding:0 !important; */
+}
+
+/* Header section */
+#header {
+    /* padding: 15px; */
+    /* background-color: #f8f9fa; */
+}
+
+.user, .langSwitch {
+    padding: 5px;
+    /* margin-top: 10px; */
+    font-size: 0.875rem; 
+    color: #212529; 
+
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px; 
+}
+
+
+#userInfo {
+    color:black;
+}
+#userInfo > b {
+    color:white;
+}
+#userInfo > a {
+  color:red;
+}
+:nth-child(3) {
+    font-weight: lighter;
+}
+:nth-child(1)  {
+  color:grey;
+}
+ /* .custom_list a {
+   font-weight: bold;
+   color:darkblue;
+
+} */
+tr .custom_list a {
+  color:darkblue;
+}
+.tbl_lesson tr > td {
+  padding:1px;
+  background-color:white;
+}
+
+.panel_left {
+  width:65% !important;
+}
+
+.panel_right {
+  float: left !important;
+  padding-left: 20px;
+
+	width:100%;
+ 	/* margin-top: 10px; */
+}
+
+.navmenu {
+    width:170px;
+  	border-radius:5px;
+  	background-color:lightgrey;
+
+}
+.navmenu a {
+  color:grey;
+}
+
+b > img {
+	background-color:grey;
+}
+
+.panel_content a > b {
+  color:darkblue;
+}
+
+ .custom_list .smaller a {
+   color:blue;
+}
+
+ .sub_title1 {
+  color:darkred;
+  /* padding-left:40% !important; */
+  text-decoration: underline black;
+  border-bottom: 1px dashed black !important;
+}
+
+hr {
+    border-bottom: 1px dotted grey !important;
+}
+
+.panel_content  .smaller {
+ 		color:black;
+}
+.panel_content .smaller > b {
+  color:darkred;
+}
+.panel_content {
+  background-color:white;
+}
+.panel_right > .panel_title:nth-child(1) {
+    /* background-color:yellow; */
+}
+
+fieldset {
+  width: 96.5% !important;
+}
+
